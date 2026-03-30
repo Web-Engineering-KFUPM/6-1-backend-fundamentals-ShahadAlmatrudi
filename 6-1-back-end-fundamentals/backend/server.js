@@ -1,5 +1,6 @@
 // TODO 1: Import Express
-
+import express from 'express';
+import cors from 'cors';
 
 
 // TODO 2: Create the Express app and store it in a variable named app
@@ -11,7 +12,6 @@
 
 
 // TODO 5: Create the home route "/"
-
 
 
 // TODO 6: Create the "/about" route
