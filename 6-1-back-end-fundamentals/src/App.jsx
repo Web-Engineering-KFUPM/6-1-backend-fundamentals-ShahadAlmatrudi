@@ -352,6 +352,13 @@ END OF LAB INSTRUCTIONS
 ===================================================================
 */
 
+import { useEffect, useState } from 'react';
+import './index.css';
+
+export default function App() {
+  // TODO 9:
+  // Create state to store student data
+  const [student, setStudent] = useState(null);
 
   // TODO 8:
   // Request student data from the server when the page loads
@@ -396,3 +403,4 @@ END OF LAB INSTRUCTIONS
       </section>
     </main>
   );
+}
